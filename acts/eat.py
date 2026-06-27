@@ -46,7 +46,7 @@ class Eat(Activity):
                             print(f"{self.tamamoochie.tm_name} is done eating his favorite food!\n")
                             break
 
-                if len(self.food) > 0:
+                elif len(self.food) > 0:
                     print(f"{self.tamamoochie.tm_name} could not find his favorite food "
                           f"and will it the first item he finds.")
                     self.food[0].feed(self.tamamoochie)
